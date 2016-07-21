@@ -1,0 +1,29 @@
+{
+  "name": "authorization",
+  "version": "1.0.0",
+  "description": "authorization powered by node-oauth20-provider",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellyfishgh/authorization.git"
+  },
+  "keywords": [
+    "oauth"
+  ],
+  "author": {
+    "name": "jellyfishgh",
+    "email": "oochoo@live.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jellyfishgh/authorization/issues"
+  },
+  "homepage": "https://github.com/jellyfishgh/authorization#readme",
+  "dependencies": {
+    "oauth20-provider": "^0.6.0"
+  }
+}
