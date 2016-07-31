@@ -1,0 +1,15 @@
+doctype html
+html(lang="zh-CN")
+	head
+		meta(charset='utf-8')
+		title= decision
+	body
+		p Currently your are logged with id = #{user}
+		p Client with id #{client} asks for access
+		p Scope asked #{scope}
+		form(method='POST')
+			input(type='hidden' name='decision' value='1')
+			input(type='submit', value='授权')
+		form(method='POST')
+			input(type='hidden' name='decision' value='0')
+			input(type='submit', value='取消')
