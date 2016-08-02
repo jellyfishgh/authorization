@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/jellyfishgh/authorization#readme",
   "dependencies": {
+    "async": "^2.0.1",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
@@ -31,6 +32,11 @@
     "morgan": "^1.7.0",
     "oauth20-provider": "^0.6.0",
     "pug": "^2.0.0-beta4",
+    "redis": "^2.6.2",
     "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.0",
+    "supertest": "^2.0.0"
   }
 }
